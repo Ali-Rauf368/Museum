@@ -1,0 +1,38 @@
+/* Custom styles */
+body {
+    padding-top: 70px; /* Adjust for fixed navbar */
+}
+
+.navbar {
+    transition: padding-top 0.3s;
+}
+
+.carousel-item {
+    height: 500px; /* Adjust carousel height */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for caption */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.news .card,
+.recommendations .card {
+    transition: transform 0.2s;
+}
+
+.news .card:hover,
+.recommendations .card:hover {
+    transform: translateY(-5px);
+}
+
+.social-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.social-icon:hover {
+    color: #cccccc;
+}
